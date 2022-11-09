@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <!--  internal CSS (HTML element style)-->
+    <style>
+        .blue {
+            color: blue;
+        }
+
+        article section h1 {
+            color: red;
+            font-size: 40px;
+
+        }
+
+        #green {
+            color: green;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <article>
+        <section>
+            <!-- inline CSS (piše se unutar prvog taga HTML elementa) -->
+            <h1 class="blue" id="green" style="color: brown; font-size:80px;">CSS Specificity Demo</h1>
+        </section>
+    </article>
+</body>
+
+</html>

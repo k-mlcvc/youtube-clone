@@ -1,79 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>YouTube</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="shortcut icon"
-      href="./images/favicon/youtube.ico"
-      type="image/x-icon"
-    />
-  </head>
-  <body>
-    <input class="search-bar" type="text" placeholder="Search" />
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img
-          class="thumbnail"
-          src="./images/thumbnails/thumbnail-1.webp"
-          alt=""
-        />
+<head>
+  <title>YouTube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="./images/favicon/youtube.ico" type="image/x-icon" />
+</head>
+
+
+
+<body>
+  <header>
+    <input class="search-bar" type="text" placeholder="Search">
+  </header>
+
+  <main>
+    <section class="video-preview">
+      <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-1.webp" alt="">
+      <img class="video-preview__avatar" src="./images/channel-pictures/channel-1.png" alt="">
+      <div class="video-preview__info">
+        <h4>Best Noise Cancelling Headphones To Buy Early 2022</h4>
+        <p>Video Author 1</p>
+        <p>1.2M views &middot; 2 months ago</p>
       </div>
-
-      <div>
-        <div class="channel-picture">
-          <img
-            class="profile-picture"
-            src="./images/channel-pictures/channel-1.png"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Best Noise Cancelling Headphones To Buy Early 2022
-          </p>
-          <p class="video-author">Video Author 1</p>
-          <p class="video-stats">1.2M views &#183; 2 months ago</p>
-        </div>
+    </section>
+    <section class="video-preview">
+      <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-2.webp" alt="">
+      <img class="video-preview__avatar" src="./images/channel-pictures/channel-2.png" alt="">
+      <div class="video-preview__info">
+        <h4>50 Cent Life Advice Will Leave You SPEECHLESS (Must Watch)</h4>
+        <p>Video Author 2</p>
+        <p>19M views &middot; 4 years ago</p>
       </div>
-    </div>
+    </section>
+  </main>
+</body>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img
-          class="thumbnail"
-          src="./images/thumbnails/thumbnail-2.webp"
-          alt=""
-        />
-      </div>
-
-      <div>
-        <div class="channel-picture">
-          <img
-            class="profile-picture"
-            src="./images/channel-pictures/channel-2.png"
-            alt=""
-          />
-        </div>
-
-        <div class="video-info">
-          <p class="video-title">
-            50 Cent Life Advice Will Leave You SPEECHLESS (Must Watch)
-          </p>
-          <p class="video-author">Video Author 2</p>
-          <p class="video-stats">19M views &#183; 4 years ago</p>
-        </div>
-      </div>
-    </div>
-  </body>
 </html>
