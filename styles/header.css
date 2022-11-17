@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    background-color: white;
 }
 
 .header__left {
@@ -79,29 +86,4 @@
     flex-shrink: 0;
     width: 180px;
     margin-right: 20px;
-}
-
-/* .header__right__upload__icon {
-    height: 24px;
-}
-
-.header__right__apps {
-    height: 24px;
-}
-
-.header__right__notifications__icon {
-    height: 24px;
-}
-
-.header__right__current-user {
-    height: 24px;
-} */
-
-/* isto, samo s utility klasom */
-.h-24px {
-    height: 24px;
-}
-
-.h-32px {
-    height: 32px;
 }
