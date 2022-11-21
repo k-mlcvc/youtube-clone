@@ -16,6 +16,10 @@
     height: 74px;
 }
 
+.nav a img {
+    height: 24px;
+}
+
 .nav a:hover {
     background-color: rgb(235, 235, 235);
 }

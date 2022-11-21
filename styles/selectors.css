@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* body div div div {
+    color: red;
+}
+
+.card__body div {
+    color: green;
+}
+
+div {
+    color: yellow !important;
+}
+
+#first {
+    color: blue;
+} */
+
+/* Selektiraj yellow koji se nalazi sa klasom card__body */
+/* .card__body.yellow {
+    color: yellow;
+} */
+
+/* Selektiraj yellow kojem je parent klasa card__body */
+/* .card__body .yellow {
+    color: yellow;
+} */
+
+/* div + div {
+    color: red;
+} */
+
+/* .yellow {
+    color: yellow;
+} */
+
+/* .card__body :first-child {
+    color: blue;
+}
+
+.card__body :last-child {
+    color: blue;
+} */
+
+/* .card__body :nth-child(3) {
+    color: blue;
+} */
+
+.card__body :nth-child(4n) {
+    color: blue;
+}
+
+.card__header--yellow {
+    color: yellow;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+}

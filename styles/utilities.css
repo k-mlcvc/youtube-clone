@@ -5,3 +5,19 @@
 .h-32px {
     height: 32px;
 }
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mb-6 {
+    margin-bottom: 6px;
+}
