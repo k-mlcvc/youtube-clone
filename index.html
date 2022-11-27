@@ -23,16 +23,31 @@
       <input class="header__middle__input" type="text" placeholder="Search">
       <button class="header__middle__search-btn">
         <img class="header__middle__search-btn__icon" src="./images/icons/search.svg" alt="">
+        <div class="tooltip">Search</div> 
       </button>
       <button class="voice-search-btn">
         <img class="voice-search-btn__icon" src="./images/icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div> 
       </button>
     </section>
     <section class="header__right">
-      <img class="h-24px" src="./images/icons/upload.svg" alt="">
-      <img class="h-24px" src="./images/icons/youtube-apps.svg" alt="">
-      <img class="h-24px" src="./images/icons/notifications.svg" alt="">
-      <img class="h-32px" src="./images/channel-pictures/my-channel.png" alt="">
+      <div class="header__right__icons">
+        <img class="h-24px" src="./images/icons/upload.svg" alt="">
+        <div class="tooltip">Create</div> 
+      </div> 
+      <div class="header__right__icons">
+        <img class="h-24px" src="./images/icons/youtube-apps.svg" alt="">
+        <div class="tooltip">Youtube apps</div> 
+      </div>
+      <div class="header__right__icons">
+        <img class="h-24px" src="./images/icons/notifications.svg" alt="">
+        <div class="notification"><span class="notification__number">5</span></div> 
+        <div class="tooltip">Notifications</div>
+      </div>
+      <div class="header__right__icons">
+        <img class="h-32px" src="./images/channel-pictures/my-channel.png" alt="">
+        <div class="tooltip">My channel</div>
+      </div> 
     </section>
   </header>
 
@@ -66,9 +81,9 @@
   <main class="video-grid">
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-1.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-1.webp" alt="">
+        <div class="video-preview__thumbnail__length">14:20</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-1.png" alt="">
@@ -81,9 +96,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-2.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-2.webp" alt="">
+        <div class="video-preview__thumbnail__length">8:22</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-2.png" alt="">
@@ -96,9 +111,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-3.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-3.webp" alt="">
+        <div class="video-preview__thumbnail__length">9:13</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-3.png" alt="">
@@ -111,9 +126,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-4.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-4.webp" alt="">
+        <div class="video-preview__thumbnail__length">22:09</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-4.png" alt="">
@@ -126,9 +141,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-5.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-5.webp" alt="">
+        <div class="video-preview__thumbnail__length">11:17</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-5.png" alt="">
@@ -141,9 +156,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-6.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-6.webp" alt="">
+        <div class="video-preview__thumbnail__length">19:59</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-6.png" alt="">
@@ -156,9 +171,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-7.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-7.webp" alt="">
+        <div class="video-preview__thumbnail__length">11:11</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-7.png" alt="">
@@ -171,9 +186,9 @@
     </section>
 
     <section class="video-preview">
-      <div class="thumbnail">
-        <img class="video-preview__thumbnail" src="./images/thumbnails/thumbnail-8.webp" alt="">
-        <div class="video-length">5:40</div>
+      <div class="video-preview__thumbnail">
+        <img class="video-preview__thumbnail__image" src="./images/thumbnails/thumbnail-8.webp" alt="">
+        <div class="video-preview__thumbnail__length">1:54</div>
       </div>
       <div class="video-preview__info">
         <img class="video-preview__info__avatar" src="./images/channel-pictures/channel-8.png" alt="">
