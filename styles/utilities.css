@@ -21,3 +21,7 @@
 .mb-6 {
     margin-bottom: 6px;
 }
+
+.hover-visible:hover .tooltip {
+    visibility: visible;
+}
